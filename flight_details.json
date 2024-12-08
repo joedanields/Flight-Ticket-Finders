@@ -12,7 +12,7 @@
         "sno": "2",
         "flight_no": "6e6011",
         "from": "cbe",
-        "to": "chenai",
+        "to": "chennai",
         "price": "3605",
         "discound": "0",
         "time": "14:10"
@@ -87,6 +87,69 @@
         "to": "chennai",
         "price": "8796",
         "discound": "0",
-        "time": "14:20"
-    }
+        "time": "14:20"
+    },
+    {
+        "sno": "11",
+        "flight_no": "9w320",
+        "from": "mumbai",
+        "to": "delhi",
+        "price": "6500",
+        "discound": "10",
+        "time": "7:15"
+    },
+    {
+        "sno": "12",
+        "flight_no": "ai110",
+        "from": "delhi",
+        "to": "mumbai",
+        "price": "5200",
+        "discound": "5",
+        "time": "11:25"
+    },
+    {
+        "sno": "13",
+        "flight_no": "9w804",
+        "from": "bangalore",
+        "to": "chennai",
+        "price": "4800",
+        "discound": "0",
+        "time": "9:30"
+    },
+    {
+        "sno": "14",
+        "flight_no": "6e235",
+        "from": "cbe",
+        "to": "mumbai",
+        "price": "6500",
+        "discound": "12",
+        "time": "18:30"
+    },
+    {
+        "sno": "15",
+        "flight_no": "ai672",
+        "from": "chennai",
+        "to": "mumbai",
+        "price": "5700",
+        "discound": "8",
+        "time": "13:50"
+    },
+    {
+        "sno": "16",
+        "flight_no": "9w431",
+        "from": "delhi",
+        "to": "bangalore",
+        "price": "6200",
+        "discound": "5",
+        "time": "16:45"
+    },
+    {
+        "sno": "17",
+        "flight_no": "ai803",
+        "from": "mumbai",
+        "to": "chennai",
+        "price": "5000",
+        "discound": "0",
+        "time": "20:00"
+    }
 ]
