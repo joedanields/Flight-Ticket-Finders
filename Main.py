@@ -1,5 +1,6 @@
 import datetime
 import json
+
 try:
     # Load the flight data from the JSON file
     with open("flight_details.json") as flights_file:
@@ -26,8 +27,8 @@ try:
         print("\nFlights within 1-hour range:")
         for flight in matching_flights:
             print(f"Flight No: {flight['flight_no']}, From: {flight['from']}, To: {flight['to']}, "
-                  f"Price: {flight['price']}, Time: {flight['time']}")
+                  f"Price: {flight['price']}, Discount: {flight['discound']}%, Time: {flight['time']}")
     else:
         print("No flights found within 1-hour range.")
 except Exception as e:
-    print("Invalid input. Please enter a valid time in HH:MM format.",e)
+    print("Invalid input. Please enter a valid time in HH:MM format.", e)
