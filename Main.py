@@ -10,6 +10,7 @@ try:
     def find_flights_within_time_range(flights, query_time):
         query_time = datetime.datetime.strptime(query_time, "%H:%M")  # Parse input time
         result = []
+        print("test")
         for flight in flights:
             flight_time = datetime.datetime.strptime(flight["time"], "%H:%M")  # Parse flight time
             time_difference = abs((flight_time - query_time).total_seconds()) / 3600  # Difference in hours
